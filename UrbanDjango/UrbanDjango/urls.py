@@ -19,7 +19,8 @@ from lib2to3.fixes.fix_input import context
 from django.contrib import admin
 from django.urls import path
 from task2.views import index_function, Index_class
-from task3.views import index,market,cart
+#from task3.views import index,market,cart
+from task4.views import index,market,cart
 
 proba = 'ПРОБА'
 cont = {'proba':proba}
